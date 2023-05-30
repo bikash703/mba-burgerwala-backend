@@ -1,5 +1,5 @@
 import { asyncEror } from '../middelware/errorMiddleware.js'
-import { Order } from '../models/order.js'
+import { Order } from '../models/Order.js'
 import { Payment } from '../models/Payment.js'
 import { instance } from '../server.js';
 import ErrorHandler from '../utils/ErrorHandler.js';
